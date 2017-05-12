@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <ApplicationURL>http://localhost:51632</ApplicationURL>
+    <LaunchUrl>CMS</LaunchUrl>
+    <LaunchBrowser>true</LaunchBrowser>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.0.1" />
+    <PackageReference Include="MySql.Data" Version="7.0.6-IR31" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Views\CMS\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\CMS\Page.cshtml" />
+    <None Include="wwwroot\Pictures\.DS_Store" />
+    <None Include="wwwroot\Pictures\14690575050706.jpg" />
+    <None Include="wwwroot\Pictures\2016-Freeshipping-Настоящее-Бросился-Приспешников-Brinquedos-Аниме-Замороженные-Игрушки-Персонализированные-Пользовательские-Полимерная-Глина-Куклы-Свадебный-Подарок.jpg" />
+    <None Include="wwwroot\Pictures\31490032-Тайский-Улыбка-глиняные-куклы.jpg" />
+    <None Include="wwwroot\Pictures\CopyRightsSymb.png" />
+    <None Include="wwwroot\Pictures\FormNature.pdf" />
+    <None Include="wwwroot\Pictures\FormNature1.pdf" />
+    <None Include="wwwroot\Pictures\GreyLogo.png" />
+    <None Include="wwwroot\Pictures\Logo.png" />
+    <None Include="wwwroot\Pictures\Marceline.Abadeer.full.1257596.jpg" />
+    <None Include="wwwroot\Pictures\Model1.png" />
+    <None Include="wwwroot\Pictures\Model2.png" />
+    <None Include="wwwroot\Pictures\SecondPictureContent.png" />
+    <None Include="wwwroot\Pictures\firstPictureContent.png" />
+    <None Include="wwwroot\Pictures\hqdefault.jpg" />
+    <None Include="wwwroot\Pictures\secondPictureContent.jpg" />
+    <None Include="wwwroot\Pictures\userLogo.png" />
+    <None Include="wwwroot\Pictures\MenuItems\MenuItem1.png" />
+    <None Include="wwwroot\Pictures\MenuItems\MenuItem2.png" />
+    <None Include="wwwroot\Pictures\MenuItems\MenuItem3.png" />
+    <None Include="wwwroot\Pictures\MenuItems\MenuItem4.png" />
+    <None Include="wwwroot\Pictures\MenuItems\MenuItem5.png" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\.DS_Store" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\001b3d202cf3ff404be88d58b0gx--kukly-igrushki-sinitsa.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\1420462893_0_6f3c9_c93c256c_xl.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\20091015131826_yaponiya.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\2b3822969cb82b7d93bbb0c7df4706a7.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\728px-Make-Clay-Dolls-Step-1-Version-4.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\DSC_3461.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\f3989995cb11604074008f29d07527f5.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\foto1_876.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\kukla-iz-gliny2.jpg" />
+    <None Include="wwwroot\Pictures\Для страницы контейнера\kukla-iz-polimernoj-gliny-2.jpg" />
+    <None Include="wwwroot\fonts\.DS_Store" />
+    <None Include="wwwroot\fonts\Luminari.ttf" />
+    <None Include="wwwroot\fonts\Lobster\.DS_Store" />
+    <None Include="wwwroot\fonts\Lobster\lobster.png" />
+    <None Include="wwwroot\fonts\lobsterRegular\lobsterRegular.eot" />
+    <None Include="wwwroot\fonts\lobsterRegular\lobsterRegular.ttf" />
+    <None Include="wwwroot\fonts\lobsterRegular\lobsterRegular.woff" />
+    <None Include="Views\Shared\_LayoutUA.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>_LayoutUA.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Shared\_LayoutRU.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>_LayoutRU.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Shared\_LayoutEN.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>_LayoutEN.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A51E6BEC-5D2C-4200-BDA8-086D0E85A8F0}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NatureFormASPCore/Startup.cs">
+    <Files>
+      <File FileName="NatureFormASPCore/Views/CMS/Page.cshtml" Line="30" Column="6" />
+      <File FileName="NatureFormASPCore/Controllers/CMSController.cs" Line="22" Column="1" />
+      <File FileName="NatureFormASPCore/Models/PageEntity.cs" Line="53" Column="20" />
+      <File FileName="NatureFormASPCore/PageHelper.cs" Line="15" Column="36" />
+      <File FileName="NatureFormASPCore/Models/PageContext.cs" Line="10" Column="31" />
+      <File FileName="NatureFormASPCore/Startup.cs" Line="16" Column="14" />
+      <File FileName="NatureFormASPCore/wwwroot/css/styles.css" Line="274" Column="25" />
+      <File FileName="NatureFormASPCore/Services/ViewRenderService.cs" Line="35" Column="43" />
+      <File FileName="NatureFormASPCore/Models/IDbContext.cs" Line="10" Column="9" />
+      <File FileName="NatureFormASPCore/appsettings.json" Line="1" Column="1" />
+      <File FileName="NatureFormASPCore/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="NatureFormASPCore/bower.json" Line="1" Column="1" />
+      <File FileName="NatureFormASPCore/bundleconfig.json" Line="1" Column="1" />
+      <File FileName="NatureFormASPCore/ExtensionClass.cs" Line="1" Column="1" />
+      <File FileName="NatureFormASPCore/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NatureFormASPCore PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,30 @@
+﻿@model string
+@{
+    //Layout = null;
+    if(ViewData["Language"].Equals("UA"))
+    {
+    	Layout = "_LayoutUA";
+    	//@Html.Raw(Model.CaptionUA);
+		//@Html.Raw(Model.ContentUA);
+	}
+	else if (ViewData["Language"].Equals("RU"))
+	{
+		Layout = "_LayoutRU";
+    	//@Html.Raw(Model.CaptionRU);
+		//@Html.Raw(Model.ContentRU);
+	}
+	else if (ViewData["Language"].Equals("EN"))
+	{
+		Layout = "_LayoutEN";
+    	//@Html.Raw(Model.CaptionEN);
+		//@Html.Raw(Model.ContentEN);
+	}
+	else
+	{
+		Layout = null;
+	}
+}
+@Html.Raw(Model)
+<!--a href="~/works/EN">
+    <img src="/Pictures/Model1.png" alt="" />
+</a-->

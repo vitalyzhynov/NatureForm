@@ -1,0 +1,8 @@
+﻿@model NatureFormASPCore.PageEntity
+@for(var i = 0; i < 10; ++i)
+{
+	<p>@i</p>
+}
+@Model.Id
+@Model.PageCode
+@Html.Raw(Model.ContentUA)

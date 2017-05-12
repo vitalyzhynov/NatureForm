@@ -1,0 +1,10 @@
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/bin/Debug/netcoreapp1.0/NatureFormASPCore.deps.json
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/bin/Debug/netcoreapp1.0/NatureFormASPCore.runtimeconfig.json
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/bin/Debug/netcoreapp1.0/NatureFormASPCore.runtimeconfig.dev.json
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/bin/Debug/netcoreapp1.0/NatureFormASPCore.dll
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/bin/Debug/netcoreapp1.0/NatureFormASPCore.pdb
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/obj/Debug/netcoreapp1.0/NatureFormASPCore.AssemblyInfo.cs
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/obj/Debug/netcoreapp1.0/NatureFormASPCore.dll
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/obj/Debug/netcoreapp1.0/NatureFormASPCore.pdb
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/obj/Debug/netcoreapp1.0/NatureFormASPCore.csprojResolveAssemblyReference.cache
+/Users/vi/Projects/NatureFormASPCore/NatureFormASPCore/obj/Debug/netcoreapp1.0/NatureFormASPCore.csproj.CoreCompileInputs.cache
